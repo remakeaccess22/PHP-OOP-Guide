@@ -21,11 +21,11 @@ abstract class AchievementType { //Remove the ability to instantiate the class, 
 
 class FirstThousandPoints extends AchievementType {
     
-        public function qualifier($user) {
+    public function qualifier($user) {
     
-            return $user->points > 1000;
-    
-        }
+        return $user->points > 1000;
+
+    }
 }
 
 class FirstBestAnswer extends AchievementType {
