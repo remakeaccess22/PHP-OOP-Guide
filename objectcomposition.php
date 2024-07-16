@@ -45,6 +45,6 @@ class StripeGateway implements Gateway {
     public function findSubscriptionByCustomer() {
 
     }
-
-
 }
+
+new Subscription(new StripeGateway());
